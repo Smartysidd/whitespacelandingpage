@@ -1,0 +1,302 @@
+/* style.css */
+
+/* Basic Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Header Styles */
+header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.logo-container {}
+
+.logo {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+.login-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    text-align: center;
+    padding: 100px 0;
+    background-image: url("hero_background.jpg"); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.hero-btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.get-started-btn,
+.learn-more-btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.get-started-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.learn-more-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.hero-image {
+    max-width: 80%;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Features Section */
+.features-section {
+    padding: 80px 32px;
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature {
+    /* Style individual feature boxes */
+}
+
+.feature img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Pricing Section */
+.pricing-section {
+    padding: 80px 32px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.pricing-card {
+    border: 1px solid #ddd;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+/* Work Management Section */
+.work-management {
+    padding: 80px 32px;
+    text-align: center; /* Example */
+}
+
+/* Custom Section */
+.custom-section {
+    padding: 80px 32px;
+    display: flex; /* Or grid */
+    gap: 10px;
+}
+
+.custom-section .item {
+    flex: 1; /* Example */
+    background-color: lightblue; /* Example */
+    height: 200px; /* Example */
+}
+
+/* Your Work, Your Data, Our Sponsors, Apps Sections */
+.your-work-section,
+.your-data-section,
+.our-sponsors-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 32px; 
+    gap: 100px; 
+    width: 100%;
+}
+
+.our-sponsors-section h2 {
+    font-size: 4em; 
+}
+
+.sponsors-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+}
+
+.sponsor-logo {
+    max-width: 10000px; 
+    height: auto;
+}
+
+
+/* Testimonial CSS */
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 32px;
+    gap: 60px;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.testimonial-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.testimonial-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.testimonial-section {
+    display: none;
+}
+
+/* Free Trial Section */
+.free-trial-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 32px 32px;
+    gap: 60px;
+    width: 100%;
+    background: #043873;
+    color: white;
+    text-align: center;
+}
+
+.free-trial-section img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.free-trial-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.free-trial-section .cta-button {
+    background-color: #f0f0f0;
+    color: #043873;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.free-trial-section .cta-button:hover {
+    background-color: #ddd;
+}
+
+/* Footer Styles */
+.footer-section {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 32px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* Media Queries (Example - Customize as needed) */
+@media (max-width: 768px) {
+    .feature-container {
+        flex-direction: column;
+    }
+
+    .custom-section {
+        flex-direction: column;
+    }
+
+    /* Add more media queries for other sections and adjustments */
+}
