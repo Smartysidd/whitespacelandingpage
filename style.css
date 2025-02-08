@@ -130,9 +130,7 @@ nav li {
     gap: 20px;
 }
 
-.feature {
-    /* Style individual feature boxes */
-}
+
 
 .feature img {
     max-width: 100px;
@@ -156,20 +154,20 @@ nav li {
 /* Work Management Section */
 .work-management {
     padding: 80px 32px;
-    text-align: center; /* Example */
+    text-align: center; 
 }
 
 /* Custom Section */
 .custom-section {
     padding: 80px 32px;
-    display: flex; /* Or grid */
+    display: flex; 
     gap: 10px;
 }
 
 .custom-section .item {
-    flex: 1; /* Example */
-    background-color: lightblue; /* Example */
-    height: 200px; /* Example */
+    flex: 1; 
+    background-color: lightblue; 
+    height: 200px; 
 }
 
 /* Your Work, Your Data, Our Sponsors, Apps Sections */
@@ -288,7 +286,7 @@ nav li {
 }
 
 
-/* Media Queries (Example - Customize as needed) */
+
 @media (max-width: 768px) {
     .feature-container {
         flex-direction: column;
@@ -298,5 +296,5 @@ nav li {
         flex-direction: column;
     }
 
-    /* Add more media queries for other sections and adjustments */
+    
 }
